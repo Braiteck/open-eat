@@ -1,0 +1,545 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 34px;
+    }
+
+
+    .menu_open
+    {
+        overflow: hidden;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 310px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #6032da;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+    header.show > .close
+    {
+        display: block;
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 30px 0;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        overscroll-behavior-y: contain;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+    header .cont
+    {
+        justify-content: center;
+    }
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+    header .menu .item
+    {
+        display: flex;
+
+        justify-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    header .menu .item button
+    {
+        font-size: 18px;
+
+        border-bottom: 1px solid;
+    }
+
+    header .menu .item + .item
+    {
+        margin: 22px 0 0;
+    }
+
+    header .contact
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 67px;
+
+        text-align: center;
+    }
+
+    header .mail
+    {
+        display: block;
+    }
+
+    header .messengers
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .subtitle
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .title
+    {
+        font-size: 20px;
+    }
+
+    .form .columns
+    {
+        margin-left: -20px;
+    }
+
+    .form .columns > *
+    {
+        width: calc(100%/3 - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section
+    {
+        min-height: 600px;
+    }
+
+    .main_section .cont
+    {
+        max-width: 840px;
+    }
+
+    .main_section .info
+    {
+        max-width: 390px;
+    }
+
+
+
+    /*------------
+		About
+	------------*/
+    .about
+    {
+        margin-top: 64px;
+    }
+
+    .about .sector
+    {
+        justify-content: center;
+    }
+
+    .about .text_block
+    {
+        max-width: none;
+    }
+
+    .about .swiper
+    {
+        width: 100%;
+        margin-top: 44px;
+
+        order: 2;
+    }
+
+    .about .box
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+    .link-red
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+		form section
+	------------*/
+    .form_section
+    {
+        margin-top: -115px;
+    }
+
+    .form_section .form
+    {
+        padding: 30px 20px 30px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*------------
+		Shops
+	------------*/
+    .shops
+    {
+        margin-top: 60px;
+        padding: 50px 0 210px;
+    }
+
+    .shops .flex
+    {
+        margin-top: 10px;
+    }
+
+    .shops .shop
+    {
+        width: calc(50% - 15px);
+        margin-top: 30px;
+    }
+
+    .shops .shop .img
+    {
+        border-radius: 30px;
+    }
+
+
+
+    /*------------
+		Info
+	------------*/
+    .info_section .bg
+    {
+        padding: 30px 240px 40px 30px;
+
+        border-radius: 30px;
+    }
+
+    .info_section .title
+    {
+        font-size: 20px;
+    }
+
+    .info_section .img
+    {
+        top: 20px;
+        right: -5px;
+
+        width: 240px;
+    }
+
+
+
+    /*------------
+		Advantages
+	------------*/
+    .advantages
+    {
+        margin-top: 80px;
+    }
+
+    .advantages .items
+    {
+        margin-top: 30px;
+
+        --advantage_number: 2;
+    }
+
+    .advantages .item
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*------------
+		Info sector
+	------------*/
+    .info_sector
+    {
+        margin-top: 130px;
+    }
+
+    .info_sector .info
+    {
+        top: -60px;
+
+        width: 290px;
+        margin-left: 30px;
+        padding: 30px 20px;
+
+        border-radius: 30px;
+    }
+
+    .info_sector .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+		Information
+	------------*/
+    .information
+    {
+        min-height: 664px;
+        padding: 74px 0;
+    }
+
+    .information .box
+    {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    .information .text_block ul
+    {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .information .img
+    {
+        top: 55px;
+
+        width: 360px;
+    }
+
+    .information .img2
+    {
+        width: 430px;
+        height: 548px;
+        margin-left: -30px;
+    }
+
+    .information .item
+    {
+        width: 242px;
+        padding: 46px 28px 20px 32px;
+
+        border-radius: 20px;
+    }
+
+    .information .item1
+    {
+        top: -36px;
+        left: 140px;
+    }
+
+    .information .item2
+    {
+        top: 160px;
+        right: 48px;
+    }
+
+    .information .item .number
+    {
+        font-size: 28px;
+
+        min-width: 55px;
+        padding: 3px 0 15px 16px;
+    }
+
+    .information .item .name
+    {
+        font-size: 18px;
+    }
+
+    .information .item .desc
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*------------
+		Start business
+	------------*/
+    .start_business
+    {
+        padding: 70px 0 170px;
+    }
+
+
+
+    /*------------
+		Order
+	------------*/
+    .order_section .box
+    {
+        width: calc(100% - 380px);
+    }
+
+    .order_section .desc
+    {
+        font-size: 16px;
+
+        margin-top: 30px;
+    }
+
+    .order_section .desc br
+    {
+        display: none;
+    }
+
+    .order_section .form
+    {
+        border-radius: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
+
+    footer .contact
+    {
+        width: 100%;
+        margin-top: 30px;
+
+        justify-content: center;
+    }
+
+    footer .menu
+    {
+        margin-left: auto;
+    }
+
+    footer .copy
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    footer .messengers
+    {
+        width: auto;
+        margin-left: 42px;
+    }
+
+    .messengers_name
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 30px 20px 30px;
+
+        border-radius: 30px;
+    }
+}

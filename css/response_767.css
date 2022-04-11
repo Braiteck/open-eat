@@ -1,0 +1,311 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 30px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .subtitle
+    {
+        margin-top: 27px;
+    }
+
+    .subtitle br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section .form
+    {
+        max-width: 420px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 34px 40px 28px;
+    }
+
+    .form_section .form .title
+    {
+        margin-bottom: 20px;
+    }
+
+    .form .line
+    {
+        margin-bottom: 10px;
+    }
+
+    .form .columns
+    {
+        margin-left: 0;
+    }
+
+    .form .columns > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form .columns + .agree
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section
+    {
+        min-height: 480px;
+        padding: 60px 0 150px;
+    }
+
+    .main_section .info
+    {
+        max-width: 300px;
+    }
+
+    .main_section .desc
+    {
+        font-size: 14px;
+
+        margin-top: 14px;
+    }
+
+
+
+    /*------------
+		Shops
+	------------*/
+    .shops .main_title
+    {
+        max-width: 420px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .shops .flex
+    {
+        display: block;
+
+        margin-top: -6px;
+    }
+
+    .shops .shop
+    {
+        width: 100%;
+        max-width: 420px;
+        margin: 46px auto 0;
+    }
+
+
+
+    /*------------
+		Info
+	------------*/
+    .info_section .bg
+    {
+        padding: 42px 40px 150px;
+    }
+
+    .info_section .img
+    {
+        top: auto;
+        right: auto;
+        bottom: -104px;
+        left: 50%;
+
+        width: 240px;
+        margin-left: -120px;
+    }
+
+
+
+    /*------------
+		Advantages
+	------------*/
+    .advantages
+    {
+        margin-top: 128px;
+    }
+
+
+    .advantages .items
+    {
+        display: block;
+
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .advantages .item
+    {
+        width: 100%;
+        max-width: 320px;
+        margin: 30px auto 0;
+    }
+
+
+    .info_sector
+    {
+        margin-top: 90px;
+        padding-bottom: 0;
+    }
+
+    .info_sector .bg
+    {
+        position: relative;
+
+        height: 433px;
+    }
+
+    .info_sector .info
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: calc(100% - 60px);
+        max-width: 420px;
+        margin: -125px auto 0;
+    }
+
+
+
+    /*------------
+		Order
+	------------*/
+    .order_section
+    {
+        padding: 60px 0 0;
+    }
+
+    .order_section .form
+    {
+        position: relative;
+        z-index: 1;
+
+        width: 100%;
+        max-width: 420px;
+        margin: 58px auto -148px;
+        padding: 34px 40px 28px;
+
+        order: 2;
+    }
+
+    .order_section .box
+    {
+        width: 100%;
+        max-width: none;
+        padding-top: 0;
+    }
+
+
+
+    /*------------
+		Information
+	------------*/
+    .information
+    {
+        min-height: 1px;
+        padding: 80px 0 0;
+    }
+
+    .information .box
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+    .information .img
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        height: 620px;
+        margin: 36px auto -50px;
+    }
+
+    .information .img img
+    {
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .information .img2
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin: 146px auto 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 198px;
+    }
+
+    footer .logo
+    {
+        width: 100%;
+        margin-top: 42px;
+
+        order: 3;
+    }
+
+    footer .logo img
+    {
+        margin: 0 auto;
+    }
+
+    footer .messengers
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+    footer .menu
+    {
+        margin-right: auto;
+    }
+
+    footer .menu .item + .item
+    {
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,437 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 12px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header .cont
+    {
+        padding: 0 20px;
+    }
+
+    .mob_header .logo img
+    {
+        width: 122px;
+    }
+
+
+    header
+    {
+        width: 100%;
+    }
+
+    header .mob_scroll
+    {
+        padding-top: 14px;
+    }
+
+    header .logo img
+    {
+        width: 122px;
+    }
+
+    header > .close
+    {
+        top: 12px;
+        right: 20px;
+        left: auto;
+
+        width: 20px;
+        height: 20px;
+    }
+
+    header > .close:before,
+    header > .close:after
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .subtitle
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section
+    {
+        margin-top: -152px;
+    }
+
+    .form_section .form
+    {
+        max-width: 300px;
+    }
+
+    .form .title
+    {
+        font-size: 14px;
+    }
+
+    .form .input
+    {
+        height: 40px;
+        padding: 0 16px;
+    }
+
+    .form .agree
+    {
+        font-size: 10px;
+    }
+
+    .form .submit_btn
+    {
+        height: 40px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block p
+    {
+        margin-bottom: 18px;
+    }
+
+    .text_block ul li
+    {
+        min-height: 1px;
+        padding-left: 28px;
+    }
+
+    .text_block ul li:before
+    {
+        width: 17px;
+        height: 17px;
+
+        background-size: 10px auto;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 18px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section
+    {
+        min-height: 768px;
+        padding: 90px 0 490px;
+    }
+
+    .main_section .bg
+    {
+        display: none;
+    }
+
+    .main_section .bg_mob
+    {
+        display: block;
+    }
+
+    .main_section .info
+    {
+        margin: 0 auto;
+    }
+
+
+
+    /*------------
+		About
+	------------*/
+    .about .swiper
+    {
+        padding: 0 41px;
+    }
+
+    .about .img img
+    {
+        border-radius: 15px;
+    }
+
+    .about .swiper:after,
+    .about .swiper:before
+    {
+        width: 41px;
+    }
+
+    .slider-button-prev,
+    .slider-button-next
+    {
+        width: 25px;
+        height: 25px;
+
+        background-size: auto 14px;
+    }
+
+
+    .link-red a
+    {
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+
+
+    /*------------
+		Shops
+	------------*/
+    .shops .shop .name
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 28px;
+    }
+
+    .shops .shop .name a
+    {
+        padding-left: 28px;
+    }
+
+    .shops .shop .name a:before
+    {
+        width: 18px;
+        height: 22px;
+
+        background-size: contain;
+    }
+
+    .shops .shop .desc
+    {
+        margin-top: 13px;
+        padding-left: 28px;
+    }
+
+    .shops .shop .img
+    {
+        border-radius: 15px;
+    }
+
+
+
+    /*------------
+		Info
+	------------*/
+    .info_section .title
+    {
+        font-size: 14px;
+    }
+
+    .info_section .bg
+    {
+        padding-bottom: 115px;
+    }
+
+    .info_section .img
+    {
+        width: 202px;
+        margin-left: -101px;
+    }
+
+
+
+    /*------------
+		Advantages
+	------------*/
+    .advantages .item
+    {
+        max-width: 242px;
+        padding: 68px 26px 26px;
+
+        border-radius: 20px;
+    }
+
+    .advantages .item .number
+    {
+        font-size: 28px;
+
+        min-width: 65px;
+        padding: 5px 0 13px 22px;
+    }
+
+    .advantages .item .number:before
+    {
+        width: 117px;
+        height: 117px;
+    }
+
+
+
+    /*------------
+		Info sector
+	------------*/
+    .info_sector .info
+    {
+        max-width: 300px;
+        padding: 42px 40px 53px;
+    }
+
+    .info_sector .title
+    {
+        font-size: 14px;
+    }
+
+    .info_sector .expert_advice
+    {
+        width: 100%;
+        height: 40px;
+        margin-top: 42px;
+    }
+
+
+
+    /*------------
+		Information
+	------------*/
+    .information .text_block
+    {
+        margin-top: 30px;
+    }
+
+    .information .text_block ul
+    {
+        margin-top: 28px;
+    }
+
+    .information .item
+    {
+        padding-bottom: 35px;
+    }
+
+    .information .img
+    {
+        width: 256px;
+        height: 424px;
+        margin-bottom: -35px;
+        padding-right: 10px;
+    }
+
+    .information .img2
+    {
+        left: -29px;
+
+        width: 418px;
+        height: 462px;
+        padding-right: 55px;
+    }
+
+    .information .img2 img
+    {
+        min-width: 50px;
+    }
+
+    .information .item1
+    {
+        top: -75px;
+        left: 98px;
+    }
+
+    .information .item2
+    {
+        top: 104px;
+        right: 78px;
+    }
+
+
+
+    /*------------
+		Start business
+	------------*/
+    .start_business
+    {
+        padding: 80px 0 212px;
+    }
+
+
+    .order_section .desc
+    {
+        font-size: 14px;
+
+        margin-top: 22px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .mail
+    {
+        width: 100%;
+        margin: 10px 0 0;
+
+        text-align: center;
+    }
+
+    footer .logo img
+    {
+        width: 122px;
+    }
+
+
+    footer .menu
+    {
+        width: 100%;
+    }
+
+    footer .menu .item
+    {
+        display: flex;
+
+        width: 100%;
+
+        justify-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    footer .menu .item + .item
+    {
+        margin: 17px 0 0;
+    }
+
+    footer .menu .item button
+    {
+        font-size: 14px;
+
+        border-bottom: 1px solid;
+    }
+}
